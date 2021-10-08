@@ -61,6 +61,8 @@ export const CartDrawer = (props: CartProps) => {
         placement="right"
         onClose={closeDrawer!}
         size="md"
+        allowPinchZoom={true}
+        autoFocus={false}
       >
         <DrawerOverlay />
         <DrawerContent bg="#F2F2EE">
